@@ -32,14 +32,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Contre Vents et Marée | Against the Tide",
-  description: "Ahoy! Joinin’ me to discover abstractions and learnin’ how systems, concurrency, and databases really work",
-    icons: [
-        {
-            url: '/favicon.ico',
-            sizes: 'any'
-        }
-    ]
+  title: "Against the Tide",
+  description: "Ahoy! Board the vessel and onward to see the dark machinery beneath the waves.",
 };
 
 export default function RootLayout({
@@ -54,10 +48,10 @@ export default function RootLayout({
       >
         <header>
           <nav className="max-w-3xl m-auto font-mono">
-            <div className="pb-20 px-1 md:px-0">
+            <div className="pb-20 px-2 md:px-0">
                 <div className="flex justify-center items-center flex-col">
-                    <Image src="/aaaa.png" height={250} width={250} alt={"a pirate ship"} className="mt-10" />
-                    <h1 className="font-sans font-black text-4xl tracking-tight">Contre Vents et Marée</h1>
+                    <Image src="/ship.png" height={250} width={250} alt={"a pirate ship"} />
+                    <h1 className="font-sans font-black text-3xl tracking-tight">Contre Vents et Marée</h1>
                     <h2 className="text-xs text-center max-w-sm mt-2 leading-3">Ahoy! Board the vessel and onward to see the dark machinery beneath the waves.</h2>
                     <h3 className="text-xs text-center max-w-sm mt-4 italic">(Written by <span className="underline underline-offset-2 tracking-tight"><Link href={"/"} >Kha Tran</Link></span>)</h3>
                 </div>
