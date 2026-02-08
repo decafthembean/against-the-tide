@@ -48,12 +48,12 @@ export default function RootLayout({
       >
         <header>
           <nav className="max-w-3xl m-auto font-mono">
-            <div className="pb-20 px-2 md:px-0">
-                <div className="flex justify-center items-center flex-col">
-                    <Image src="/ship.png" height={250} width={250} alt={"a pirate ship"} />
-                    <h1 className="font-sans font-black text-3xl tracking-tight">Contre Vents et Marée</h1>
-                    <h2 className="text-xs text-center max-w-sm mt-2 leading-3">Ahoy! Board the vessel and onward to see the dark machinery beneath the waves.</h2>
-                    <h3 className="text-xs text-center max-w-sm mt-4 italic">(Written by <span className="underline underline-offset-2 tracking-tight"><Link href={"/"} >Kha Tran</Link></span>)</h3>
+            <div className="py-20 px-2 md:px-0">
+                <div className="flex justify-center items-center flex-col gap-2">
+                    <Image src="/aaaa.png" height={250} width={250} alt={"a pirate ship"} className={"dark:invert"} />
+                    <h1 className="font-sans text-3xl tracking-tight">Contre Vents et Marée</h1>
+                    <h2 className="text-xs text-center max-w-sm leading-3">Ahoy! Board the vessel and onward to see<br/>the dark machinery beneath the waves.</h2>
+                    <h3 className="text-xs text-center max-w-sm italic">(Written by <span className="underline underline-offset-2 tracking-tight"><Link href={"/"} >Kha Tran</Link></span>)</h3>
                 </div>
             </div>
           </nav>
