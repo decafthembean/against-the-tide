@@ -50,7 +50,7 @@ export default function RootLayout({
           <nav className="max-w-3xl m-auto font-mono">
             <div className="py-20 px-2 md:px-0">
                 <div className="flex justify-center items-center flex-col gap-2">
-                    <Image src="/image.webp" height={250} width={250} alt={"a ship venturing to the deep sea"} />
+                    <Image src="/the-ship.webp" height={250} width={250} alt={"a ship venturing to the deep sea"} />
                     <h1 className="font-sans text-3xl tracking-tight">Contre Vents et Marée</h1>
                     <h2 className="text-xs text-center max-w-sm leading-3">Ahoy! Board the vessel and onward to see<br/>the dark machinery beneath the waves.</h2>
                     <h3 className="text-xs text-center max-w-sm italic">(Written by <span className="underline underline-offset-2 tracking-tight"><Link href={"/"} >Kha Tran</Link></span>)</h3>
